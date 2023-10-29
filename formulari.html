@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/from.css">
+</head>
+<body>
+
+    <!-- el form es para iniciar el formulario,
+        el action es la accion que hace cuando envias el formulario en este caso lo redireccionamos a otra pagina. -->
+
+    <form action="./gracias_formulario.html">
+
+        <h3>Información Personal:</h3>
+        <!-- label es donde pondremos el contenido de el input que servira de etiqueta para relacionarlo
+            el for que esta dentro es para acer referencia a la id del input -->
+
+        <label for="pnom">Nombre completo:</label>
+
+        <!-- Input como su nombre dice sirve para que el usuario lo utilize en este caso como es "type= text" puede escrivir un texto corto y el requiered es para que sea obligatorio -->
+
+        <input class="w300" type="text" name="pnom" id="pnom" required>
+        <br>
+        <label for="mail_user">Dirección de correo electrónico:</label>
+
+        <!-- Este input es tipo "email" significa que no te aceptrara nada que no contenga un algo@algo.algo-->
+
+        <input class="w300" type="email" name="mail_user" id="mail_user" required>
+        <br>
+        <label for="tel_user">Teléfono de contacto:</label>
+
+        <!-- ste input es tipo "tel" eso signofica que solo acepta numeros de telefono -->
+
+        <input type="number" name="tel" id="tel_user" required>
+        <br>
+        <label for="user_direction_postal">Dirección postal:</label>
+        <input class="w300" type="text" name="postal" id="user_direction_postal" required>
+        <br>
+        <label for="user_ciudad">Ciudad:</label>
+        <input class="w300" type="text" name="user_ciudad" id="user_ciudad" required>
+        <br>
+        <label for="estat_provincia">Estado/Provincia:</label>
+        <input class="w300" type="text" name="estat_provincia" id="estat_provincia" required>
+        <br>
+        <label for="postal_code">Código postal:</label>
+
+        <!-- ste input es tipo "number" eso significa que solo se permiten numeros -->
+
+        <input type="number" name="postal_code" id="postal_code" required>
+        <br>
+        <h3>Opciones de Suscripción:</h3>
+        
+        <!-- ste input es tipo "radio" lon que hace es generar una casiya de eleccion redonda de una unica seleccion -->
+
+        <input type="radio" name="suscripcion" id="suscrip1_anual">
+        <label for="suscrip1_anual">suscripcion Anual(12 ediciones) - 70€</label>
+        <br>
+        <input type="radio" name="suscripcion" id="suscrip2_semanal">
+        <label for="suscrip2_semanal">suscripcion Semestral(6 ediciones) - 25€</label>
+        <br>
+        <input type="radio" name="suscripcion" id="suscrip3_trimestral">
+        <label for="suscrip3_trimestral">suscripcion Trimestral(3 ediciones) - 10€</label>
+        
+        <h3>Método de Pago:</h3>
+
+        <input type="radio" name="metodo_pago" id="metodo_pago1">
+        <label for="metodo_pago1">Tarjeta de Crédito (Por favor, complete los detalles a continuación)</label>
+        <br>
+        <input type="radio" name="metodo_pago" id="metodo_pago2">
+        <label for="metodo_pago2">ransferencia Bancaria (Póngase en contacto con nuestro servicio de atención al cliente para obtener detalles de la cuenta)</label>
+        <br>
+        <input type="radio" name="metodo_pago" id="metodo_pago3">
+        <label for="metodo_pago3">Cheque (Por favor, hágalo a nombre de [Nombre de la Revista] y envíelo a la dirección postal proporcionada anteriormente)</label>
+
+        <h3>Detalles de la Tarjeta de Crédito (si es aplicable):</h3>
+
+        <label for="tarjet_titular">Titular de la tarjeta</label>
+        <input class="w300" type="text" name="titular" id="tarjet_titular">
+        <br>
+        <label for="tarjet_num">Numero de la tarjeta</label>
+        <input type="number" name="tarteta_num" id="tarjet_num">
+        <br>
+        <label for="tarjet_venciment">Fecha de vencimiento de la tarjeta</label>
+        
+        <!-- ste input es tipo "month" lo que hace es para que introduzcas el mes y el año -->
+
+        <input type="month" name="tarjeta_vence" id="tarjet_venciment">
+        <br>
+        <label for="tarjet_codi">CVV</label>
+        <input type="number" name="tarjeta_codigo" id="tarjet_codi">
+
+        <h3>Información Adicional:</h3> 
+
+        <label for="desplegat_redes">¿Por donde nos has conocido?</label>
+        <br>
+
+        <!-- ste input es tipo "list=browsers" crea un desplegable con las options que pongas -->
+
+        <input list="browsers" name="browser" id="desplegat_redes">
+        <datalist id="browsers">
+            <option value="Instagram">
+            <option value="Tik Tok">
+            <option value="Facebook">
+            <option value="Un amic">
+            <option value="Externs">
+        </datalist>
+
+        <br>
+
+        <h3>Cual es tu genero de serie favorito</h3>
+
+        <!-- ste input es tipo "checkbox" crea cuboos de seleccion multiple -->
+
+        <input type="checkbox" name="categorias1" id="tu_categoria1">
+        <label for="tu_categoria1">comedia</label>
+        <br>
+        <input type="checkbox" name="categorias2" id="tu_categoria2">
+        <label for="tu_categoria2">accion</label>
+        <br>
+        <input type="checkbox" name="categorias3" id="tu_categoria3">
+        <label for="tu_categoria3">terror</label>
+        <br>
+        <input type="checkbox" name="categorias4" id="tu_categoria4">
+        <label for="tu_categoria4">anime</label>
+        <br>
+        <input type="checkbox" name="categorias5" id="tu_categoria5">
+        <label for="tu_categoria5">romance</label>
+
+        <br><br>
+        <label for="especial_soli">¿Tiene algún comentario o solicitud especial?</label>
+        <br>
+
+        <!-- ste input es tipo "textarea" es como el de text pero mas grande y dega modificar el grosor del cuadro al usuario -->
+
+        <textarea name="especial_soli" id="especial_soli" cols="30" rows="10" placeholder="Escrive aqui todas las sugerencias"></textarea>
+
+        <h3>Aviso Legal:</h3>
+
+        <p>Al enviar este formulario, usted acepta nuestros términos y condiciones, incluyendo la política de privacidad.</p>
+
+        <input type="radio" name="accept_terminis" id="accept_terminis" required>
+        <label for="accept_terminis">Acepto los términos y condiciones</label>
+        <br>
+
+        <!-- ste input es tipo "submit" es el boton para enviar el formulario -->
+
+        <input class="booton" type="submit" value="Enviar">
+    </form>
+</body>
+</html>

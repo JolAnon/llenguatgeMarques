@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(182, 245, 225);
+}
+.w300 {
+    width: 300px;
+}
+
+#tel_user, #postal_code, #tarjet_num, #tarjet_codi{
+    width: 100px;
+}
+
+.booton{
+    background-color: brown;
+    width: 168px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* el hover es para que haga lo que quieres cuando pase poe encima de lo que identificas */
+.booton:hover {
+    background-color: blue;
+    /* el cursor sirve que cuando este enci,a de ese objeto tenga el cursor una forma especifica */
+    cursor: pointer;
+}
+/* El focus sirve para cuando cliques en ese lugar se ponga como desees */
+input:focus , textarea:focus{
+    background-color: blueviolet;
+}
+label, h3 ,h1 {
+    /* font-family es para cambiar el estilo de letra */
+    font-family: monospace;
+}
