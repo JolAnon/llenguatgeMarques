@@ -20,22 +20,25 @@ h1, nav a {
 }
 h1{
     margin-left: 45vw;
-    /* width: 15vw; */
     margin-bottom: 3vh;
     margin-top: 3vh;
     top: 3vh;
 }
 nav {
     display: inline;
-    /* background-color: aqua;
-    padding: 2vw; */
+    position: sticky;
+    background-color: rgb(132, 24, 233);
+    padding: 2vh;
+    border-radius: 2vw;
+    margin-left: 2vw;
 }
 nav a {
     margin-left: 1vw;
     margin-right: 1vw;
+    text-decoration: none;
 }
 #primer-nav{
-    margin-left: 16vw;
+    margin-left: 5vw;
 }
 h2{
     padding-top: 30vh;
@@ -88,4 +91,14 @@ h3 , h3 ~ p , h4 , h4 ~ p{
 
 img ~ p {
     margin-bottom: 5vh;
+}
+
+footer {
+    background-color: black;
+    padding-top: 5vh;
+    color: white;
+}
+
+footer p {
+    text-align: center;
 }
