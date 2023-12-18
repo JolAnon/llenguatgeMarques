@@ -1,0 +1,64 @@
+<!ELEMENT tienda (empleados+, clientes+,productos+, ingresos, gastos_generales)>
+
+
+<!ELEMENT empleados (nombre, apellidos, dni, telefon,cargo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+
+
+<!ELEMENT clientes (nombre, apellidos,dni,telefon,num_CC,historico)>
+<!ELEMENT num_CC (#PCDATA)>
+<!ELEMENT historico (num_pedido, lista_productos, fecha, precio)>
+<!ELEMENT num_pedido (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT lista_productos (producto*)>
+<!ELEMENT producto (nom, quantitat, preu_unitat)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT preu_unitat (#PCDATA)>
+
+
+<!ELEMENT productos (frutas, mermeladas, derivados, dulces, precio_pack)>
+<!ELEMENT frutas (#PCDATA)>
+<!ELEMENT mermeladas (#PCDATA)>
+<!ELEMENT derivados (#PCDATA)>
+<!ELEMENT dulces (#PCDATA)>
+<!ELEMENT precio_pack (#PCDATA)>
+
+
+<!ELEMENT ingresos (frutas_vendidas_mensual, frutas_vendidas_anual, previsions_proper_mes, previsio_proper_excercici)>
+<!ELEMENT frutas_vendidas_mensual (#PCDATA)>
+<!ELEMENT frutas_vendidas_anual (#PCDATA)>
+<!ELEMENT previsions_proper_mes (#PCDATA)>
+<!ELEMENT previsio_proper_excercici (#PCDATA)>
+
+
+<!ELEMENT gastos_generales (nominas, servicios_externos_empresariales_anuales, gastos_fijos)>
+<!ELEMENT nominas (#PCDATA)>
+<!ELEMENT servicios_externos_empresariales_anuales (#PCDATA)>
+<!ELEMENT gastos_fijos (gastos+)>
+<!ELEMENT gastos (cuota, consumicion, precio)>
+<!ELEMENT cuota (#PCDATA)>
+<!ELEMENT consumicion (#PCDATA)>
+
+
+<!NOTATION KWh PUBLIC "KW/h">
+<!NOTATION m3h PUBLIC "m3/h">
+
+
+<!ATTLIST empleados id ID #REQUIRED>
+<!ATTLIST clientes id ID #REQUIRED>
+<!ATTLIST productos id ID #REQUIRED>
+<!ATTLIST frutas_vendidas_mensual type (number) #REQUIRED>
+<!ATTLIST gastos id ID #REQUIRED>
+<!ATTLIST cuota categoria (llar | equips) #REQUIRED>
+
+
+<!ATTLIST consumicion type (m3h | KWh | dies) #REQUIRED>
+
+
+<!ATTLIST precio type  (euro | euro_por_hora) "euro">

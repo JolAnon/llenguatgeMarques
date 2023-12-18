@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda SYSTEM "fruta.dtd">
+<tienda>
+    <empleados id="e1">
+        <!-- Trabajadores de la empresa-->
+        <nombre>Iker</nombre>
+        <apellidos>Rus</apellidos>
+        <dni>123456789I</dni>
+        <telefon>+34 634919268</telefon>
+        <cargo>Jefe Logistica i distribució</cargo>
+    </empleados>
+    <empleados id="e2">
+        <nombre>Renzo</nombre>
+        <apellidos>Silva</apellidos>
+        <dni>123456789R</dni>
+        <telefon>+34 635769930</telefon>
+        <cargo>Encargado de Tecniques agricoles</cargo>
+    </empleados>
+    <empleados id="e3">
+        <nombre>Omar</nombre>
+        <apellidos>Guillen</apellidos>
+        <dni>123456789O</dni>
+        <telefon>+34 622067479</telefon>
+        <cargo>Encargado de Marketing i comercialització</cargo>
+    </empleados>
+    <empleados id="e4">
+        <nombre>Donaiber</nombre>
+        <apellidos>Moya</apellidos>
+        <dni>123456789D</dni>
+        <telefon>+34 621314372</telefon>
+        <cargo>Manager Top Trade</cargo>
+    </empleados>
+
+    <clientes id="c1">
+        <!-- Lista de clientes socios -->
+        <nombre>Sergi</nombre>
+        <apellidos>Correa</apellidos>
+        <dni>83928572G</dni>
+        <telefon>+34 957-733262</telefon>
+        <num_CC>ES6682612986296429915428</num_CC>
+        <historico>
+            <num_pedido>111</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Manzana</nom>
+                    <quantitat>5</quantitat>
+                    <preu_unitat>1.25</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Zanahoria</nom>
+                    <quantitat>3</quantitat>
+                    <preu_unitat>0.75</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-11-10</fecha>
+            <precio>9.50</precio>
+        </historico>
+    </clientes>
+    <clientes id="c2">
+        <nombre>Alvaro</nombre>
+        <apellidos>San</apellidos>
+        <dni>03131313H</dni>
+        <telefon>+34 973-02-4522</telefon>
+        <num_CC>ES6682612986296429915428</num_CC>
+        <historico>
+            <num_pedido>222</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Plátano</nom>
+                    <quantitat>6</quantitat>
+                    <preu_unitat>1.50</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Espinaca</nom>
+                    <quantitat>2</quantitat>
+                    <preu_unitat>1.20</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-12-05</fecha>
+            <precio>11.40</precio>
+        </historico>
+    </clientes>
+    <clientes id="c3">
+        <nombre>Laura</nombre>
+        <apellidos>González</apellidos>
+        <dni>98765432X</dni>
+        <telefon>654987321</telefon>
+        <num_CC>5678-1234-9012-3456</num_CC>
+        <historico>
+            <num_pedido>333</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Pera</nom>
+                    <quantitat>4</quantitat>
+                    <preu_unitat>1.75</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Tomate</nom>
+                    <quantitat>5</quantitat>
+                    <preu_unitat>0.90</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-11-20</fecha>
+            <precio>11.50</precio>
+        </historico>
+    </clientes>
+    <clientes id="c4">
+        <nombre>Marta</nombre>
+        <apellidos>Ruiz</apellidos>
+        <dni>87654321Y</dni>
+        <telefon>789123456</telefon>
+        <num_CC>4321-5678-9012-3456</num_CC>
+        <historico>
+            <num_pedido>444</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Mango</nom>
+                    <quantitat>3</quantitat>
+                    <preu_unitat>2.25</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Patata</nom>
+                    <quantitat>6</quantitat>
+                    <preu_unitat>1.10</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-12-03</fecha>
+            <precio>16.05</precio>
+        </historico>
+    </clientes>
+    <clientes id="c5">
+        <nombre>Pablo</nombre>
+        <apellidos>Fernández</apellidos>
+        <dni>76543210Z</dni>
+        <telefon>321654987</telefon>
+        <num_CC>9012-3456-7890-1234</num_CC>
+        <historico>
+            <num_pedido>555</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Naranja</nom>
+                    <quantitat>8</quantitat>
+                    <preu_unitat>1.00</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Pimiento</nom>
+                    <quantitat>4</quantitat>
+                    <preu_unitat>0.80</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-11-25</fecha>
+            <precio>11.20</precio>
+        </historico>
+    </clientes>
+    <clientes id="c6">
+        <nombre>Carlos</nombre>
+        <apellidos>Álvarez</apellidos>
+        <dni>65432109W</dni>
+        <telefon>987321654</telefon>
+        <num_CC>3456-7890-1234-5678</num_CC>
+        <historico>
+            <num_pedido>666</num_pedido>
+            <lista_productos>
+                <producto>
+                    <nom>Sandía</nom>
+                    <quantitat>1</quantitat>
+                    <preu_unitat>5.00</preu_unitat>
+                </producto>
+                <producto>
+                    <nom>Calabacín</nom>
+                    <quantitat>3</quantitat>
+                    <preu_unitat>1.25</preu_unitat>
+                </producto>
+            </lista_productos>
+            <fecha>2023-12-10</fecha>
+            <precio>8.75</precio>
+        </historico>
+    </clientes>
+
+    <productos id="p1">
+        <!-- Inventario que tenemos en venta -->
+        <frutas>Plátanos</frutas>
+        <mermeladas>Mermelada de Naranja</mermeladas>
+        <derivados>Confitura de Ciruela</derivados>
+        <dulces>Golosinas de Regaliz</dulces>
+        <precio_pack>3.49€</precio_pack>
+    </productos>
+    <productos id="p2">
+        <frutas>Fresas</frutas>
+        <mermeladas>Mermelada de Arándanos</mermeladas>
+        <derivados>Compota de Peras</derivados>
+        <dulces>Malvaviscos</dulces>
+        <precio_pack>4.25€</precio_pack>
+    </productos>
+    <productos id="p3">
+        <frutas>Uvas</frutas>
+        <mermeladas>Mermelada de Frambuesa</mermeladas>
+        <derivados>Compota de Mango</derivados>
+        <dulces>Chicles</dulces>
+        <precio_pack>6.75€</precio_pack>
+    </productos>
+    <productos id="p4">
+        <frutas>Naranjas</frutas>
+        <mermeladas>Mermelada de Melocotón</mermeladas>
+        <derivados>Compota de Manzana Verde</derivados>
+        <dulces>Piruletas</dulces>
+        <precio_pack>7.99€</precio_pack>
+    </productos>
+    <productos id="p5">
+        <frutas>Uvas de Oro</frutas>
+        <mermeladas>Mermelada de Uva de Edición Limitada</mermeladas>
+        <derivados>Vino Reserva de Uva Exclusiva</derivados>
+        <dulces>Chocolates Rellenos de Uva Exótica</dulces>
+        <precio_pack>999999.99€</precio_pack>
+    </productos>
+        
+    <ingresos>
+        <!-- Frutas que se venden en un periodo del tiempo-->
+        <frutas_vendidas_mensual type="number">50.000</frutas_vendidas_mensual>
+        <frutas_vendidas_anual>600.001</frutas_vendidas_anual>
+        <previsions_proper_mes>60.000</previsions_proper_mes>
+        <previsio_proper_excercici>800.002</previsio_proper_excercici>
+    </ingresos>
+
+    <gastos_generales>
+        <!-- Dinero que se invierte en el negocio-->
+        <nominas><!-- no paga con €, se paga con fruta --></nominas>
+        <servicios_externos_empresariales_anuales> 25.999€ </servicios_externos_empresariales_anuales>
+        <gastos_fijos>
+            <gastos id="g1">
+                <cuota categoria="llar">Agua</cuota>
+                <consumicion type="m3/h">2.50</consumicion>
+                <precio type="euro_por_hora">52.81</precio>
+            </gastos>
+            <gastos id="g2">
+                <cuota categoria="llar">Llum</cuota>
+                <consumicion type="KW/h">10</consumicion>
+                <precio type="euro_por_hora">0.1212</precio>
+            </gastos>
+            <gastos id="g3">
+                <cuota categoria="llar">Gas</cuota>
+                <consumicion type="KW/h">625</consumicion>
+                <precio type="euro_por_hora">0,066</precio>
+            </gastos>
+            <gastos id="g4">
+                <cuota categoria="equips">Manteniment</cuota>
+                <consumicion type="dies">4</consumicion>
+                <precio type="euro">200</precio>
+            </gastos>
+        </gastos_fijos>
+    </gastos_generales>
+</tienda>
