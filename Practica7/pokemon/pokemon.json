@@ -1,0 +1,225 @@
+{
+    "pokemons":[
+        { 
+            "numero_pokedex": "0001",
+            "nombre": "bulbasaur",
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png",
+            "generacion": "Primera",
+            "categoria": "Semilla",
+            "tipo": ["planta","veneno"],
+            "habilidad": "espesura",
+            "habilidad_oculta": "Clorofila",
+            "peso": 6.9,
+            "tipo_peso": "kg",
+            "altura": "0,7 m",
+            "grupos_huevos": ["Mounstro","Planta"],
+            "color": "Verde",
+            "figura": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/67/latest/20200214141425/Figura_8.png/48px-Figura_8.png",
+            "grito": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3a/latest/20140731185900/Grito_de_Bulbasaur.ogg",
+            "estadisticas":{
+                "velocidad": 3,
+                "fortaleza": 3,
+                "Precision": 4,
+                "resistencia": 4,
+                "salto":3,
+                "total":17,
+                "media":3.4
+            },
+            "movimientos":[
+                {
+                    "nom": "placaje",
+                    "descripcion":"Placaje causa daño y no tiene ningún efecto secundario",
+                    "potencia": 40,
+                    "precision": 100,
+                    "contacto": true,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Gruñido",
+                    "descripcion":"Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo.",
+                    "potencia": null,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Latigo_cepa",
+                    "descripcion":"Látigo cepa causa daño y no tiene ningún efecto secundario.",
+                    "potencia": 45,
+                    "precision": 100,
+                    "contacto": true,
+                    "tipo": "planta"
+                },
+                {
+                    "nom": "desarrollo",
+                    "descripcion":"Desarrollo aumenta en un nivel el especial del usuario",
+                    "potencia": null,
+                    "precision": null,
+                    "contacto": false,
+                    "tipo": "normal"
+                }
+            ],
+            "evoluciones":[
+                {
+                    "nivel": 16,
+                    "numero_pokedex": "0002",
+                    "nombre": "Ivysaur",
+                    "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/8/86/latest/20190406151903/Ivysaur.png"               
+                },
+                {
+                    "nivel": 32,
+                    "numero_pokedex": "0003",
+                    "nombre": "Venusaur",
+                    "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/b/be/latest/20160309230456/Venusaur.png"     
+                }
+            ]
+        },
+        { 
+            "numero_pokedex": "0004",
+            "nombre": "charmander",
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/Charmander.png",
+            "generacion": "Primera",
+            "categoria": "Lagartija",
+            "tipo": "Fuego",
+            "habilidad": "Mar_llaas",
+            "habilidad_oculta": "Poder_solar",
+            "peso": 8.5,
+            "tipo_peso": "kg",
+            "altura": "0,6m",
+            "grupos_huevos":["Mounstro","Dragon"],
+            "color": "Rojo",
+            "figura": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/ff/latest/20200214141238/Figura_6.png/48px-Figura_6.png",
+            "grito": "https://images.wikidexcdn.net/mwuploads/wikidex/4/47/latest/20140731190207/Grito_de_Charmander.ogg",
+            "estadisticas":{
+                "velocidad": 3,
+                "fortaleza": 5,
+                "precision": 4,
+                "resistencia": 3,
+                "salto": 3,
+                "total": 18,
+                "media": 3.6
+            },
+            "movimientos":[
+                {
+                    "nom": "arañazo",
+                    "descripcion": "",
+                    "potencia": 40,
+                    "precision": 100,
+                    "contacto": true,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Gruñido",
+                    "descripcion": "",
+                    "potencia": null,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Ascuas",
+                    "descripcion": "",
+                    "potencia": 40,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "Fuego"
+                },
+                {
+                    "nom": "Pantalla de humo",
+                    "descripcion": "",
+                    "potencia": null,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "normal"
+                }
+            ],
+            "evoluciones":[
+                {
+                    "nivel": 16,
+                    "numero_pokedex": "0005",
+                    "nombre": "Charmeleon",
+                    "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fb/latest/20200411222755/Charmeleon.png?20200411222755"
+                },
+                {
+                    "nivel": 36,
+                    "numero_pokedex": "0006",
+                    "nombre": "Charizard",
+                    "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/300px-Charizard.png"
+                }
+            ]
+        },
+        { 
+            "numero_pokedex": "0007",
+            "nombre": "squirtle",
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/e/e3/Squirtle.png",
+            "generacion": "Primera",
+            "categoria": "Tortuguita",
+            "tipo": "agua",
+            "habilidad": "torrente",
+            "habilidad_oculta": "Cura_lluvia",
+            "peso": 9.0,
+            "tipo_peso": "kg",
+            "altura": "0,5 m",
+            "grupos_huevos": ["Mounstro","Agua1"],
+            "color": "Azul",
+            "figura": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/ff/latest/20200214141238/Figura_6.png/48px-Figura_6.png",
+            "estadisticas":{
+                "velocidad": 3,
+                "fortaleza": 3,
+                "Precision": 4,
+                "resistencia": 4,
+                "salto":2,
+                "total":16,
+                "media":3.2
+            },
+            "movimientos":[
+                {
+                    "nom": "placaje",
+                    "descripcion":"Placaje causa daño y no tiene ningún efecto secundario",
+                    "potencia": 40,
+                    "precision": 100,
+                    "contacto": true,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Látigo",
+                    "descripcion":"",
+                    "potencia": null,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "normal"
+                },
+                {
+                    "nom": "Pistola agua",
+                    "descripcion":"",
+                    "potencia": 40,
+                    "precision": 100,
+                    "contacto": false,
+                    "tipo": "agua"
+                },
+                {
+                    "nom": "Refugio",
+                    "descripcion":"",
+                    "potencia": null,
+                    "precision": null,
+                    "contacto": false,
+                    "tipo": "agua"
+                }
+            ],
+            "evoluciones":[
+                {
+                    "nivel": 16,
+                    "numero_pokedex": "0008",
+                    "nombre": "Wartortle",
+                    "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d7/latest/20200307022248/Wartortle.png/300px-Wartortle.png"               
+                },
+                {
+                    "nivel": 36,
+                    "numero_pokedex": "0009",
+                    "nombre": "Blastoise",
+                    "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/41/latest/20200411222955/Blastoise.png/300px-Blastoise.png"     
+                }
+            ]
+        }
+    ]
+}

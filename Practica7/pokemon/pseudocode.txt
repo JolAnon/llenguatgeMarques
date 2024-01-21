@@ -1,0 +1,73 @@
+A
+fun getAlturaPokemon(pokemon){
+    pokemon_mesura_unidad = pokemon["pokemons"][0]
+    print(pokemon_mesura_unidad["altura"][4])
+}
+
+B
+fun isSegonMovimentDeContacte(pokemon){
+    pokemon_movimiento_2 = pokemon["pokemons"][0]["movimientos"][1]
+    print(pokemon_movimiento_2["contacto"])
+}
+
+C
+fun getSumaEstadistiques(pokemon){
+    pokemon_estadisticas = pokemon["pokemons"][0]["estadisticas"]
+    suma = pokemon_estadisticas["velocidad"] + pokemon_estadisticas["fortaleza"] + pokemon_estadisticas["precision"] + pokemon_estadisticas["resistencia"]
+    print(suma)
+}
+
+D
+fun getMitjanaEstadistiques (pokemon){
+    pokemon_estadisticas = pokemon["pokemons"][0]["estadisticas"]
+    suma = pokemon_estadisticas["velocidad"] + pokemon_estadisticas["fortaleza"] + pokemon_estadisticas["precision"] + pokemon_estadisticas["resistencia"]
+    print(suma/4)
+}
+
+E
+fun getPes(llista3pokemons){
+    suma = pokemon["pokemons"][0]["peso"] + pokemon["pokemons"][1]["peso"] + pokemon["pokemons"][2]["peso"]
+    print (suma)
+}
+
+F
+fun isEvolucionPossible (pokemon, nivel){
+    pokemon = input("dime un pokemon de estos tres: bulbasaur, charmander, squirtle: ")
+    nivel = input("dime un nivel: ")
+
+    if pokemon == pokemon["pokemons"][0]["nombre"]:
+        if nivel < pokemon["pokemons"][0]["evoluciones"][0]["nivel"]:
+            print ("True")
+        else:
+            print("False")
+    elif pokemon == pokemon["pokemons"][1]["nombre"]:
+        if nivel < pokemon["pokemons"][1]["evoluciones"][0]["nivel"]:
+            print ("True")
+        else:
+            print("False")
+    elif pokemon == pokemon["pokemons"][2]["nombre"]:
+        if nivel < pokemon["pokemons"][2]["evoluciones"][0]["nivel"]:
+            print ("True")
+        else:
+            print("False")
+}
+
+G
+fun getPotenciaMesAlta (polemon){
+    potencia = pokemon["pokemons"][0]["movimientos"][0]["potencia"]
+
+    if potencia < pokemon["pokemons"][0]["movimientos"][1]["potencia"]:
+        potencia = pokemon["pokemons"][0]["movimientos"][1]["potencia"]
+
+        if potencia < pokemon["pokemons"][0]["movimientos"][2]["potencia"]:
+            potencia = pokemon["pokemons"][0]["movimientos"][2]["potencia"]
+            print(pokemon["pokemons"][0]["movimientos"][2]["potencia"])
+        else:
+            print (pokemon["pokemons"][0]["movimientos"][1]["potencia"])
+
+    elif potencia < pokemon["pokemons"][0]["movimientos"][2]["potencia"]:
+        potencia = pokemon["pokemons"][0]["movimientos"][2]["potencia"]
+        print(pokemon["pokemons"][0]["movimientos"][2]["potencia"])
+    else:
+        print(pokemon["pokemons"][0]["movimientos"][0]["potencia"])
+}
