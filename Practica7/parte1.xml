@@ -7,8 +7,12 @@
         <job>Informátic</job>
         <favorite_smile>&lt;3</favorite_smile>
         <pets>
-            <black_cat/>
-            <chiwawa/>
+            <pet>
+                <black_cat/>
+            </pet>
+            <pet>
+                <chiwawa/>
+            </pet>
         </pets>
         <address>
             <street>Pau Claris</street>
@@ -24,13 +28,15 @@
         <twitter id="True"/>
     </social_media>
     <friends>
-        <name>Jhon</name>
-        <surname>Doe</surname>
-        <age>35</age>
-    </friends>
-    <friends>
-        <name>Anna</name>
-        <surname>Smith</surname>
-        <age id="Null"/>
+        <friend>
+            <name>Jhon</name>
+            <surname>Doe</surname>
+            <age>35</age>
+        </friend>
+        <friend>
+            <name>Anna</name>
+            <surname>Smith</surname>
+            <age id="Null"/>
+        </friend>
     </friends>
 </parte1>
